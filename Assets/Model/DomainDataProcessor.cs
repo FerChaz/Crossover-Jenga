@@ -40,7 +40,7 @@ public class DomainDataProcessor
         }
         catch (Exception e)
         {
-            Debug.LogError("Error al procesar la respuesta de la API: " + e.Message);
+            Debug.LogError("Error processing API response: " + e.Message);
         }
 
         return dataObjects;

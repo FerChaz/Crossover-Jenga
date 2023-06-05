@@ -19,7 +19,7 @@ public class APIGateway
             }
             else
             {
-                Debug.LogError("Error al obtener los datos de la API: " + www.error);
+                Debug.LogError("Error retrieving data from the API:" + www.error);
             }
         }
     }
